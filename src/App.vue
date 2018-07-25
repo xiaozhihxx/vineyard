@@ -9,6 +9,7 @@
 
 <script>
 import {YardHeader, AsideNav} from 'components';
+import 'assets/css/base.css';
 import 'font-awesome/css/font-awesome.css';
 
 export default {
@@ -17,8 +18,10 @@ export default {
         YardHeader,
         AsideNav
     }
+    // 执行npm run build 报错can not find module 'lodash-webpack-plugin'
 };
 </script>
+
 
 <style>
 #app {

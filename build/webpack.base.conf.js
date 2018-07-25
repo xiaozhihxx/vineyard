@@ -26,7 +26,7 @@ const createLintingRule = () => ({
 
 module.exports = {
     context: path.resolve(__dirname, '../'),
-    // 入口U文件是src目录下的main.js
+    // 入口文件是src目录下的main.js
     entry: {
         app: './src/main.js'
     },
